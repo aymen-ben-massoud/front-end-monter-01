@@ -1,1 +1,97 @@
-body{ background-color: hsl(217, 54%, 11%); font-family: 'Outfit', sans-serif; } .view{visibility: hidden; position: relative; top: 40%; left: 40% } .view:hover{visibility: visible; position: relative; top: 40%; left: 40% } .thone{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 300px; height: 500px; background-color: hsl(216, 50%, 16%); border-radius: 10px; box-shadow: 20px 20px 100px  hsl(216, 50%, 16%); } .photo{ background-image: url(/images/image-equilibrium.jpg); background-repeat: no-repeat; background-size: cover; background-size:cover; margin: auto; width: 250px; height: 250px; margin-top:     20px; border-radius: 10px; } .photo:hover{opacity: 0.3; } .text{ width: 250px; margin: auto; } h1{ font-size: 18px; color: hsl(0, 0%, 100%); font-weight: 600; } h1:hover{ color: hsl(178, 100%, 50%); } p{ color: hsl(215, 51%, 70%); } .blue{ color: hsl(178, 100%, 50%); font-weight: 400; } .p{ color: hsl(215, 51%, 70%); } .text2{ margin-bottom: 20px; margin-top: 20px; display: flex; align-items: center; justify-content: space-between; } hr{ border-color: hsl(215, 32%, 27%); border-radius: 50%; } .one{ color:hsl(215, 51%, 70%) ; margin-left: 10px; } .two{ color: hsl(0, 0%, 100%); font-weight: 300; margin-left: 5px; } .two:hover{ color:hsl(178, 100%, 50%) ; } .lastdiv{ margin-top: 20px; } .avatar{ width: 30px; height: 30px; } .lastdiv{ display: flex; align-items: center; }
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+}
+.view {
+  visibility: hidden;
+  position: relative;
+  top: 40%;
+  left: 40%;
+}
+.view:hover {
+  visibility: visible;
+  position: relative;
+  top: 40%;
+  left: 40%;
+}
+.thone {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 500px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  box-shadow: 20px 20px 100px hsl(216, 50%, 16%);
+}
+.photo {
+  background-image: url('./images/image-equilibrium.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.photo:hover {
+  opacity: 0.3;
+}
+.text {
+  width: 250px;
+  margin: auto;
+}
+h1 {
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+h1:hover {
+  color: hsl(178, 100%, 50%);
+}
+p {
+  color: hsl(215, 51%, 70%);
+}
+.blue {
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+}
+.p {
+  color: hsl(215, 51%, 70%);
+}
+.text2 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+hr {
+  border-color: hsl(215, 32%, 27%);
+  border-radius: 50%;
+}
+.one {
+  color: hsl(215, 51%, 70%);
+  margin-left: 10px;
+}
+.two {
+  color: hsl(0, 0%, 100%);
+  font-weight: 300;
+  margin-left: 5px;
+}
+.two:hover {
+  color: hsl(178, 100%, 50%);
+}
+.lastdiv {
+  margin-top: 20px;
+}
+.avatar {
+  width: 30px;
+  height: 30px;
+}
+.lastdiv {
+  display: flex;
+  align-items: center;
+}
